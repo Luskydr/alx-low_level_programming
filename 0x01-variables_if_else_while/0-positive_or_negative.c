@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - main block 
+ * main - main block
  * description: get a random number and print number
  * Return: 0
  */
@@ -18,7 +18,7 @@ int main(void)
 	{
 	printf("%d is positive\n", n);
 	}
-	else if (n == 0)
+	else if (n < 0)
 	{
 	printf("%d is negative\n", n);
 	}
@@ -26,5 +26,5 @@ int main(void)
 	{
 	printf("%d is zero\n", n);
 	}
-	return(0);
+	return (0);
 }
