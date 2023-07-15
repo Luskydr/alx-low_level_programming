@@ -10,17 +10,23 @@
 
 int main(void)
 {
-	int r;
+	char c = 'a';
 
-	char low;
+	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
 
-	for (low = 'a'; low <= 'z'; low++)
-	putchar(low);
+	c = 'A';
 
-	for (low = 'A'; low <= 'z'; low++)
-	putchar(low);
-	putchar('\n);
+	while (c <= 'Z')
+	{
+		putchar(c);
+		c++;
 
-	return (0);
+	}
 
+	putchar('\n');
+	return (0)
 }
