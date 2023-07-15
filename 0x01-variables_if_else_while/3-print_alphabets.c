@@ -1,21 +1,26 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 
 /**
  * main - check the code
- *
- * Return: Always 0.
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
 	int r;
 
-	r = _islower('H');
-	_putchar(r + '0');
-	r = _islower('o');
-	_putchar(r + '0');
-	r = _islower(100);
-	_putchar(r + '0');
-	_putchar('\n');
+	char low;
+
+	for (low = 'a'; low <= 'z'; low++)
+	putchar(low);
+
+	for (low = 'A'; low <= 'z'; low++)
+	putchar(low);
+	putchar('\n);
+
 	return (0);
+
 }
