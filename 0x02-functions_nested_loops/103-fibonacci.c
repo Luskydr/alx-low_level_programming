@@ -6,7 +6,7 @@
  * Return: Nothing!
  */
 
-int main (void)
+:x
 
 {
 
