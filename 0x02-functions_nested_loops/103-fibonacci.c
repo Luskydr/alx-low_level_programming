@@ -6,7 +6,6 @@
  * Return: Nothing!
  */
 
-:x
 
 {
 
