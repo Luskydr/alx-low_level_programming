@@ -9,7 +9,7 @@ int check_prime(int n, int i);
  *
  * Return: integer value
  */
-int Is _prime_number(int n)
+int Is_prime_number(int n)
 {
 	return (check_prime(n, 1));
 }
@@ -31,5 +31,5 @@ int check_prime(int n, int i)
 	if ((n / i) < i)
 		return (1);
 
-	return (checl_prime(n, i +1));
+	return (check_prime(n, i +1));
 }
