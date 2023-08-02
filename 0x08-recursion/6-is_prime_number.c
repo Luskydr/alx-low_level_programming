@@ -17,7 +17,7 @@ int is_prime_number(int n)
 /**
  * check_prime - Check if number is prime
  * @n: the number to be checkd
- * @i: the itration times 
+ * @i: the itration times
  *
  * return: 1 for prime or 0 composite
  */
@@ -31,5 +31,5 @@ int check_prime(int n, int i)
 	if ((n / i) < i)
 		return (1);
 
-	return (check_prime(n, i +1));
+	return (check_prime(n, i + 1));
 }
